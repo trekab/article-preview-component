@@ -63,6 +63,11 @@ body {
   border-radius: 50%;
 }
 
+.author-details {
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
 .author-name {
   font-weight: 700;
   color: var(--very-dark-grayish-blue);
@@ -87,9 +92,25 @@ body {
   background-color: var(--light-grayish-blue);
   border-radius: 50%;
 }
-/* 
-@media (min-width: 375px) {
+
+@media (min-width: 768px) {
   .card {
     max-width: 730px;
+    height: 280px;
+    background-size: 285px 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
-} */
+
+  .card-heading {
+    margin-top: unset;
+    font-size: 20px;
+  }
+
+  .card-heading,
+  .card-description,
+  .author {
+    margin-left: 285px;
+  }
+}
