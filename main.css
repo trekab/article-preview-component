@@ -91,6 +91,7 @@ body {
   background-position: center;
   background-color: var(--light-grayish-blue);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
