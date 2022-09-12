@@ -94,6 +94,43 @@ body {
   cursor: pointer;
 }
 
+.share {
+  background-color: var(--very-dark-grayish-blue);
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  min-width: 327px;
+  left: -32px;
+  top: 32px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0 2rem;
+}
+
+.share .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 175px;
+}
+
+.share .label {
+  font-weight: 500;
+  color: var(--grayish-blue);
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 5px;
+}
+
+.share .share-icon {
+  background-color: var(--desturated-dark-blue);
+  background-image: url("./images/icon-share-alt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @media (min-width: 768px) {
   .card {
     max-width: 730px;
