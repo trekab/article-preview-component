@@ -116,6 +116,10 @@ body {
   width: 175px;
 }
 
+.share .icons img:hover{
+  cursor: pointer;
+}
+
 .share .label {
   font-weight: 500;
   color: var(--grayish-blue);
@@ -131,7 +135,7 @@ body {
   background-position: center;
 }
 
-.d-none{
+.d-none {
   display: none;
 }
 
@@ -154,5 +158,12 @@ body {
   .card-description,
   .author {
     margin-left: 285px;
+  }
+
+  .share {
+    max-width: 445px;
+    left: 253px;
+    top: 34px;
+    border-bottom-left-radius: unset;
   }
 }
