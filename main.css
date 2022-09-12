@@ -131,6 +131,10 @@ body {
   background-position: center;
 }
 
+.d-none{
+  display: none;
+}
+
 @media (min-width: 768px) {
   .card {
     max-width: 730px;
